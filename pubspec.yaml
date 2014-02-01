@@ -1,0 +1,4 @@
+name: dart_minion
+description: Minion Server Management in Dart
+dependencies:
+    browser: any
