@@ -29,7 +29,7 @@
           <ul class="nav navbar-nav">
             <li class="active">
               <a href="servers.html">
-                <span class="glyphicon glyphicon-signal"></span>
+                <span class="glyphicon glyphicon-th"></span>
                 Servers
               </a>
             </li>
@@ -43,27 +43,118 @@
         <h1>Servers</h1>
       </div>
       
-      <div class="span12">
-        <table class="table table-hover table-bordered">
-          <thead>
-            <tr>
-              <th>Hostname</th>
-              <th>Domain</th>
-              <th>Data Center</th>
-              <th>Server Type</th>
-              <th>OS</th>
-              <th>Cores</th>
-              <th>RAM (GB)</th>
-              <th>HDD (GB)</th>
-              <th>TCO</th>
-            </tr>
-          </thead>
-          <tbody id="servers">
-            
-          </tbody>
-          
-        </table>
+      <div class="row">
+        <div class="col-sm-12">
+          <table class="table table-hover table-bordered" id="servers">
+            <thead>
+              <tr>
+                <th>Hostname</th>
+                <th>Domain</th>
+                <th>Data Center</th>
+                <th>Server Type</th>
+                <th>OS</th>
+                <th>Cores</th>
+                <th>RAM (GB)</th>
+                <th>HDD (GB)</th>
+                <th>TCO</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
       </div>
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Data Centers</h3>
+            </div>
+            <div class="panel-body">
+              <table class="table table-condensed">
+                <thead>
+                  <th>DC</th>
+                  <th>Total</th>
+                  <th>TCO</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>LW</td>
+                    <td>0</td>
+                    <td>$0</td>
+                  </tr>
+                  <tr>
+                    <td>SEA</td>
+                    <td>3</td>
+                    <td>$2290</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Server Types</h3>
+            </div>
+            <div class="panel-body">
+              <table class="table table-condensed">
+                <thead>
+                  <th>Type</th>
+                  <th>Total</th>
+                  <th>TCO</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>seawolf.large</td>
+                    <td>1</td>
+                    <td>$1578</td>
+                  </tr>
+                  <tr>
+                    <td>seawolf.small</td>
+                    <td>2</td>
+                    <td>$712</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-4">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Pending Servers</h3>
+            </div>
+            <div class="panel-body">
+              <table class="table table-condensed">
+                <thead>
+                  <th>Type</th>
+                  <th>DC</th>
+                  <th>Total</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>seawolf.large</td>
+                    <td>SEA
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>seawolf.medium</td>
+                    <td>LW</td>
+                    <td>2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
     </div>
     
   </body>
