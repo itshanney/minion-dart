@@ -1,0 +1,35 @@
+[
+  {
+    "hostname": "seadevapp1",
+    "domain": "tideworks.com",
+    "dataCenter": "SEA",
+    "serverType": "seawolf.large",
+    "os": "CentOS 6.3",
+    "cores": 2,
+    "ram": 16,
+    "hdd": 250,
+    "tco": 1578
+  },
+  {
+    "hostname": "seatstapp1",
+    "domain": "tideworks.com",
+    "dataCenter": "SEA",
+    "serverType": "seawolf.small",
+    "os": "CentOS 6.3",
+    "cores": 1,
+    "ram": 4,
+    "hdd": 50,
+    "tco": 356
+  },
+  {
+    "hostname": "seatstapp2",
+    "domain": "tideworks.com",
+    "dataCenter": "SEA",
+    "serverType": "seawolf.small",
+    "os": "CentOS 6.3",
+    "cores": 1,
+    "ram": 4,
+    "hdd": 50,
+    "tco": 356
+  }
+]
