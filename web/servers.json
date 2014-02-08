@@ -5,7 +5,7 @@
     "dataCenter": "SEA",
     "serverType": "seawolf.large",
     "os": "CentOS 6.3",
-    "cores": 2,
+    "cores": 4,
     "ram": 16,
     "hdd": 250,
     "tco": 1578
@@ -31,5 +31,27 @@
     "ram": 4,
     "hdd": 50,
     "tco": 356
+  },
+  {
+    "hostname": "seaglu01",
+    "domain": "tideworks.com",
+    "dataCenter": "SEA",
+    "serverType": "seawolf.medium",
+    "os": "CentOS 6.3",
+    "cores": 2,
+    "ram": 8,
+    "hdd": 100,
+    "tco": 850
+  },
+  {
+    "hostname": "seabuoy01",
+    "domain": "tideworks.com",
+    "dataCenter": "SEA",
+    "serverType": "seawolf.medium",
+    "os": "CentOS 6.3",
+    "cores": 2,
+    "ram": 8,
+    "hdd": 100,
+    "tco": 850
   }
 ]

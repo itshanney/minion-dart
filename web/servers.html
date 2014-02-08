@@ -17,12 +17,6 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <strong><a class="navbar-brand" href="#">Minion</a></strong>
         </div>
         <div class="collapse navbar-collapse pull-right">
@@ -41,6 +35,28 @@
     <div class="container">
       <div class="page-header">
         <h1>Servers</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3">
+          <form role="form">
+          <select name="filter" class="form-control">
+            <option>Seattle (SEA)</option>
+            <option>Lynnwood (LW)</option>
+          </select>
+          </form>
+        </div>
+      
+        <div class="col-sm-9">
+          <div class="pull-right">
+            <p>
+            <button class="btn btn-success">
+              <span class="glyphicon glyphicon-plus"></span>
+              New Server
+            </button>
+            </p>
+          </div>
+        </div>
       </div>
       
       <div class="row">
@@ -71,27 +87,25 @@
             <div class="panel-heading">
               <h3 class="panel-title">Data Centers</h3>
             </div>
-            <div class="panel-body">
-              <table class="table table-condensed">
-                <thead>
-                  <th>DC</th>
-                  <th>Total</th>
-                  <th>TCO</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>LW</td>
-                    <td>0</td>
-                    <td>$0</td>
-                  </tr>
-                  <tr>
-                    <td>SEA</td>
-                    <td>3</td>
-                    <td>$2290</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <table class="table table-condensed">
+              <thead>
+                <th>DC</th>
+                <th>Total</th>
+                <th>TCO</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>SEA</td>
+                  <td>5</td>
+                  <td>$3,990</td>
+                </tr>
+                <tr>
+                  <td>LW</td>
+                  <td>10</td>
+                  <td>$7,894</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         
@@ -100,56 +114,57 @@
             <div class="panel-heading">
               <h3 class="panel-title">Server Types</h3>
             </div>
-            <div class="panel-body">
-              <table class="table table-condensed">
-                <thead>
-                  <th>Type</th>
-                  <th>Total</th>
-                  <th>TCO</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>seawolf.large</td>
-                    <td>1</td>
-                    <td>$1578</td>
-                  </tr>
-                  <tr>
-                    <td>seawolf.small</td>
-                    <td>2</td>
-                    <td>$712</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <table class="table table-condensed">
+              <thead>
+                <th>Type</th>
+                <th>Total</th>
+                <th>TCO</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>seawolf.medium</td>
+                  <td>2</td>
+                  <td>$1,700</td>
+                </tr>
+                <tr>
+                  <td>seawolf.small</td>
+                  <td>2</td>
+                  <td>$712</td>
+                </tr>
+                <tr>
+                  <td>seawolf.large</td>
+                  <td>1</td>
+                  <td>$1,578</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         
         <div class="col-sm-4">
-          <div class="panel panel-warning">
+          <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Pending Servers</h3>
             </div>
-            <div class="panel-body">
-              <table class="table table-condensed">
-                <thead>
-                  <th>Type</th>
-                  <th>DC</th>
-                  <th>Total</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>seawolf.large</td>
-                    <td>SEA
-                    <td>1</td>
-                  </tr>
-                  <tr>
-                    <td>seawolf.medium</td>
-                    <td>LW</td>
-                    <td>2</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            <table class="table table-condensed">
+              <thead>
+                <th>Type</th>
+                <th>DC</th>
+                <th>Total</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>seawolf.medium</td>
+                  <td>LW</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>seawolf.large</td>
+                  <td>SEA
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         
